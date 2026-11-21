@@ -1,10 +1,23 @@
-# SOC lab log
+# Healthcare Security Lab Log
 
-I am moving from healthcare into security operations (SOC analyst work).
-This repository is my daily log while I study for Security+ and blue team certifications.
+Hands-on security labs and study notes as I work toward a cybersecurity
+analyst role in healthcare. My background is in healthcare operations,
+including patient-facing support and first-line tech troubleshooting, and
+I'm building the defensive security skills to help protect hospital systems
+and patient data.
 
-- `log/` has one short note for each study day.
-- `writeups/` has longer write-ups of labs I finished.
+## Current Path
+- **Now:** CompTIA A+, the service-desk and IT-support on-ramp
+- **Next:** Security+ and blue-team fundamentals
+- **Goal:** Cybersecurity Analyst in a healthcare setting (detection,
+  monitoring, incident response)
 
-Currently learning: Linux, networking and Wireshark. Wazuh and Python come next.
-No passwords, flags or patient information are in this repository.
+## Repository Layout
+- `log/` — short daily study notes
+- `*.md` in the root — longer hands-on lab write-ups
+- `screenshots/` — supporting images for the write-ups
+
+## Lab Write-Ups
+- [Wazuh Home Lab: Detecting an RDP Brute-Force](wazuh-rdp-bruteforce.md) —
+  stood up a Wazuh SIEM, ran a failed-login attack against a Windows VM, and
+  detected the brute-force through Wazuh's correlation rules.
